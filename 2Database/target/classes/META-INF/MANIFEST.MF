@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Properties
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: saskuma
+Implementation-Vendor-Id: com.CE
+Build-Jdk: 1.8.0_60
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/Properties_database
+Created-By: Maven Integration for Eclipse
+
