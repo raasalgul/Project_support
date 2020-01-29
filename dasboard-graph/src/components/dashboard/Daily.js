@@ -7,7 +7,6 @@ const Daily = () => {
         height={'400px'}
         chartType="LineChart"
         loader={<div>Loading Chart</div>}
-        title= 'Box Office Earnings in First Two Weeks of Opening'
         data={[
           [
             'Day',
