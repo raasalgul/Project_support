@@ -4,9 +4,8 @@ const Monthly = () => {
     return ( <Chart
         width={'600px'}
         height={'400px'}
-        chartType="Line"
+        chartType="LineChart"
         loader={<div>Loading Chart</div>}
-        title= 'Box Office Earnings in First Two Weeks of Opening'
         data={[
           [
             'Day',
@@ -44,11 +43,16 @@ const Monthly = () => {
           [28, 0,9, 0]
         ]}
         options={{
-            chart: {
-                title: 'Monthly',
-              }, width: 600,
-              height: 375,
-        }}
+            title: "Monthly status",
+           hAxis: {
+            title: 'Days',
+            minValue:1,
+            maxValue:31
+          },
+          vAxis: {
+            title: 'Hours Spend',
+          },
+          }}
         rootProps={{ 'data-testid': '3' }}
       />);
 }
